@@ -1,0 +1,124 @@
+@charset "UTF-8";
+body {
+    margin:0px;
+    padding: 0px;
+    background-image: url(/imagens/fundo\ manga.jpg);
+    position: relative;
+    z-index: 1;
+}
+body ::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.041);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.container { 
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+.logo {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    text-align: right;
+    width: 100%;
+}
+.menu { 
+    margin-top: -1px;
+}
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 18px;
+}
+nav .menu a:hover {
+    color: orange;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top:0;
+    padding: 20px;
+    background-color:rgba(255, 166, 0, 0.783);
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.inicio {
+    margin-top:-20px;
+}
+.biografia {
+    width: auto;
+    padding: 10px;
+    border: 1px solid red;
+    margin: 0;
+    
+}
+.manga {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color:rgba(249, 249, 249, 0.778);
+    padding: 20px;
+}
+.manga h2 {
+    width:300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    margin: auto;   
+}
+.chegada {
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 40px
+}
+.resumo h3 {
+    width:300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+footer a {
+    color: orange;
+    text-decoration: none;
+}
