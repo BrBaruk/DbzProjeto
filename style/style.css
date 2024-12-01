@@ -22,7 +22,7 @@ body ::after {
     z-index: -1;
 }
 .container { 
-    padding: 10px;
+    padding: 0;
     background-color: black;
     text-align: center;
 }
@@ -34,7 +34,8 @@ body ::after {
 nav {
     background-color: black;
     text-align: right;
-    width: 100%;
+    align-content: center;
+    margin: -2px;
 }
 .menu { 
     margin-top: -1px;
@@ -89,10 +90,22 @@ main {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    background-color: black;
-    color: orange;
+    background-color: orange;
+    color: black;
     padding: 10px;
-    margin: auto;   
+    margin: auto;  
+    box-shadow: 1px 1px 3px black; 
+}
+.manga .person {
+    margin: auto;
+    background-color: orange;
+    color: black;
+    box-shadow: 1px 1px 2px black ;
+}
+.manga p {
+    margin: 20px 0;
+    word-spacing: 0;
+    
 }
 .chegada {
     margin: 10px 0;
@@ -108,12 +121,129 @@ main {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    margin: auto;
+    
+    box-shadow: 1px 1px 3px black;
+}
+.caracters {
+    background-color: rgba(249, 249, 249, 0.778);
+    padding: 10px;
+
+}
+.caracters h3 {
+    width:auto;
+    max-width: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     background-color: black;
     color: orange;
     padding: 10px;
-    margin: 0;
+    margin: auto; 
 }
+.caracters img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+    border: 4px  solid orange;
+    margin-left: 20px;
+    margin: auto;
+}
+.caracters div {
+    margin: 15px; 
+    background-color:rgba(0, 0, 0, 0.658);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    text-align: center;
+}
+.caracters div p {
+    text-align: justify;
+}
+.meme {
+    background-color: rgba(249, 249, 249, 0.778);
+    padding: 40px;
+    border-radius: 0 0 10px 10px;
+}
+.meme .video {
+    position: relative;
+}
+.meme h3 {
+    width:auto;
+    max-width: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.meme .video iframe {
+    width: 100%;
+    height: 400px;
+    top: 5%;
+    left: 5%;
+}
+.meme .episodio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+.links img {
+    width: 100%;
+}
+.links h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 2rem;
+    width: fit-content;
+}
+.links {
+    margin: 20px;
+}
+.get-links {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.get-links a {
+    text-decoration: none;
+    color: black;
+}
+.links p {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    background-color: rgba(249, 249, 249, 0.233);
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
 
+
+}
 footer {
     background-color: black;
     color: white;
