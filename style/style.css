@@ -54,6 +54,7 @@ nav .menu a:hover {
     color: orange;
 }
 main {
+    min-width: auto;
     max-width: 1000px;
     margin: auto;
     margin-top:0;
