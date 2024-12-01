@@ -9,6 +9,7 @@ body {
     background-image: url(/imagens/fundo\ manga.jpg);
     position: relative;
     z-index: 1;
+    width: 100%;
     
 }
 body ::after {
@@ -20,6 +21,7 @@ body ::after {
     left: 0;
     top: 0;
     z-index: -1;
+    width: 100%;
 }
 .container { 
     padding: 0;
@@ -199,6 +201,7 @@ main {
 .meme .episodio {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
+    text-align: start;
 }
 .links img {
     width: 100%;
